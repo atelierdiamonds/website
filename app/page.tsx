@@ -52,17 +52,14 @@ export default function Home() {
     <>
       {/* ── NAVIGATION ── */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-8 md:px-16 py-5 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-4">
+        <a href="#" className="flex items-center">
           <Image
             src="/logo.jpg"
             alt="Atelier Diamonds"
-            width={36}
-            height={36}
+            width={220}
+            height={101}
             className="object-contain"
           />
-          <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light">
-            Atelier Diamonds
-          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-10">
@@ -425,17 +422,14 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="bg-atelier-black border-t border-white/5 px-8 md:px-20 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center">
             <Image
               src="/logo.jpg"
               alt="Atelier Diamonds"
-              width={28}
-              height={28}
+              width={160}
+              height={73}
               className="object-contain opacity-60"
             />
-            <span className="text-white/40 text-[10px] tracking-[0.35em] uppercase font-jost">
-              Atelier Diamonds
-            </span>
           </div>
           <p className="text-white/20 text-[11px] font-jost tracking-wider">
             © {new Date().getFullYear()} Atelier Diamonds. All rights reserved.
