@@ -58,9 +58,9 @@ export default function Home() {
             alt="Atelier Diamonds"
             width={1634}
             height={750}
-            style={{ width: 'clamp(44px, 5vw, 64px)', height: 'auto', display: 'block' }}
+            style={{ width: 'clamp(56px, 7vw, 72px)', height: 'auto', display: 'block' }}
           />
-          <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light">
+          <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light whitespace-nowrap">
             Atelier Diamonds
           </span>
         </a>
@@ -147,7 +147,7 @@ export default function Home() {
           </div>
 
           <div className="order-first lg:order-last flex items-center justify-center">
-            <div className="relative w-full max-w-md aspect-square">
+            <div className="relative w-full max-w-md aspect-[706/1239]">
               <Image src="/diamond.png" alt="Atelier Diamond" fill className="object-contain" />
             </div>
           </div>
