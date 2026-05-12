@@ -58,7 +58,7 @@ export default function Home() {
             alt="Atelier Diamonds"
             width={1634}
             height={750}
-            style={{ width: 'clamp(32px, 3.5vw, 48px)', height: 'auto', display: 'block' }}
+            style={{ width: 'clamp(44px, 5vw, 64px)', height: 'auto', display: 'block' }}
           />
           <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light">
             Atelier Diamonds
@@ -149,17 +149,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="order-first lg:order-last">
-            {/*
-              PHOTO SLOT — /public/brand.jpg:
-              <div className="relative aspect-[3/4] overflow-hidden">
-                <Image src="/brand.jpg" alt="Atelier Diamonds" fill className="object-cover" />
-              </div>
-            */}
-            <div className="aspect-[3/4] bg-neutral-200 flex items-center justify-center">
-              <span className="text-neutral-400 text-[10px] tracking-[0.4em] uppercase font-jost">
-                [ Brand Photograph ]
-              </span>
+          <div className="order-first lg:order-last flex items-center justify-center">
+            <div className="relative w-full max-w-md aspect-square">
+              <Image src="/diamond.png" alt="Atelier Diamond" fill className="object-contain" />
             </div>
           </div>
         </div>
