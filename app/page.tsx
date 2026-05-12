@@ -94,9 +94,6 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-atelier-black via-atelier-black/30 to-transparent" />
 
         <div className="relative z-10 px-10 md:px-20 pb-20 md:pb-28">
-          <p className="text-atelier-gold text-[10px] tracking-[0.5em] uppercase font-jost mb-8">
-            Atelier Diamonds
-          </p>
           <h1 className="font-cormorant font-light text-white leading-[0.9] tracking-tight">
             <span className="block text-[clamp(4rem,9vw,9rem)]">Where</span>
             <span className="block text-[clamp(4rem,9vw,9rem)]">imagination</span>
@@ -133,7 +130,7 @@ export default function Home() {
               <em>meets precision.</em>
             </h2>
             <div className="w-8 h-px bg-atelier-gold mb-12" />
-            <div className="space-y-6 font-jost text-neutral-500 text-[15px] leading-loose">
+            <div className="space-y-6 font-jost text-neutral-500 text-base md:text-[17px] leading-loose">
               <p>
                 Atelier Diamonds is not built around inventory. It is built around possibility.
               </p>
@@ -153,15 +150,6 @@ export default function Home() {
             <div className="relative w-full max-w-md aspect-square">
               <Image src="/diamond.png" alt="Atelier Diamond" fill className="object-contain" />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── DIAMOND PHOTO ── */}
-      <section className="bg-white px-8 md:px-20 py-28 md:py-44">
-        <div className="max-w-4xl mx-auto">
-          <div className="relative aspect-square overflow-hidden">
-            <Image src="/diamond.png" alt="Diamond" fill className="object-contain" />
           </div>
         </div>
       </section>
@@ -227,7 +215,7 @@ export default function Home() {
                 <h3 className="font-cormorant text-atelier-black text-2xl md:text-3xl mb-6">
                   {pillar.title}
                 </h3>
-                <p className="font-jost text-neutral-500 text-[13px] leading-loose">{pillar.text}</p>
+                <p className="font-jost text-neutral-500 text-sm md:text-[15px] leading-loose">{pillar.text}</p>
               </div>
             ))}
           </div>
@@ -245,7 +233,7 @@ export default function Home() {
               Laisha Bragg
             </h2>
             <div className="w-8 h-px bg-atelier-gold mb-12" />
-            <div className="space-y-6 font-jost text-neutral-500 text-[15px] leading-loose">
+            <div className="space-y-6 font-jost text-neutral-500 text-base md:text-[17px] leading-loose">
               <p>
                 Atelier Diamonds was founded by Laisha Bragg after more than fifteen years working
                 within the world of high fashion. She developed a deep appreciation for exceptional
