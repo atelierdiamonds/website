@@ -51,38 +51,49 @@ export default function Home() {
   return (
     <>
       {/* ── NAVIGATION ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-6 md:px-16 py-3 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
-          <Image
-            src="/logo.png"
-            alt="Atelier Diamonds"
-            width={1634}
-            height={750}
-            style={{ width: 'clamp(80px, 10vw, 140px)', height: 'auto', display: 'block' }}
-          />
-          <span className="hidden md:inline text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light whitespace-nowrap">
-            Atelier Diamonds
-          </span>
-        </a>
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-6 md:px-16 py-3 flex flex-col md:flex-row md:items-center md:justify-between gap-1 md:gap-0">
+        {/* Row 1: logo + desktop nav */}
+        <div className="flex items-center justify-between md:contents">
+          <a href="#" className="flex items-center gap-3">
+            <Image
+              src="/logo.png"
+              alt="Atelier Diamonds"
+              width={1634}
+              height={750}
+              style={{ width: 'clamp(80px, 10vw, 140px)', height: 'auto', display: 'block' }}
+            />
+            <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light whitespace-nowrap">
+              Atelier Diamonds
+            </span>
+          </a>
 
-        <div className="hidden md:flex items-center gap-10">
-          {[
-            ['About', '#about'],
-            ['Philosophy', '#philosophy'],
-          ].map(([label, href]) => (
-            <a
-              key={label}
-              href={href}
-              className="text-white/50 hover:text-white text-[11px] tracking-[0.25em] uppercase font-jost font-light transition-colors duration-300"
-            >
-              {label}
-            </a>
-          ))}
+          <div className="hidden md:flex items-center gap-10">
+            {[
+              ['About', '#about'],
+              ['Philosophy', '#philosophy'],
+            ].map(([label, href]) => (
+              <a
+                key={label}
+                href={href}
+                className="text-white/50 hover:text-white text-[11px] tracking-[0.25em] uppercase font-jost font-light transition-colors duration-300"
+              >
+                {label}
+              </a>
+            ))}
+          </div>
+
+          <a
+            href="#contact"
+            className="hidden md:inline text-white text-[11px] tracking-[0.25em] uppercase font-jost font-light border-b border-white/30 hover:border-atelier-gold hover:text-atelier-gold pb-0.5 transition-all duration-300 whitespace-nowrap"
+          >
+            Request a Consultation
+          </a>
         </div>
 
+        {/* Row 2: CTA — mobile only */}
         <a
           href="#contact"
-          className="text-white text-[10px] md:text-[11px] tracking-[0.2em] md:tracking-[0.25em] uppercase font-jost font-light border-b border-white/30 hover:border-atelier-gold hover:text-atelier-gold pb-0.5 transition-all duration-300 whitespace-nowrap"
+          className="md:hidden text-center text-white/60 text-[10px] tracking-[0.3em] uppercase font-jost font-light border-t border-white/10 pt-2 pb-1 hover:text-atelier-gold transition-colors duration-300"
         >
           Request a Consultation
         </a>
