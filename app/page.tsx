@@ -52,20 +52,22 @@ export default function Home() {
     <>
       {/* ── NAVIGATION ── */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-8 md:px-16 py-4 flex items-center justify-between">
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center gap-3">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="Atelier Diamonds"
             width={1634}
             height={750}
-            style={{ width: 'clamp(180px, 20vw, 320px)', height: 'auto', display: 'block' }}
+            style={{ width: 'clamp(32px, 3.5vw, 48px)', height: 'auto', display: 'block' }}
           />
+          <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light">
+            Atelier Diamonds
+          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-10">
           {[
             ['About', '#about'],
-            ['Our Work', '#work'],
             ['Philosophy', '#philosophy'],
           ].map(([label, href]) => (
             <a
@@ -163,47 +165,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── DIAMOND GALLERY ── */}
-      <section id="work" className="bg-white px-8 md:px-20 py-28 md:py-44">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-atelier-gold text-[10px] tracking-[0.5em] uppercase font-jost mb-5 text-center">
-            Our Work
-          </p>
-          <h2 className="font-cormorant font-light text-atelier-black text-3xl md:text-5xl text-center mb-20">
-            Selected <em>Pieces</em>
-          </h2>
-          {/*
-            PHOTO SLOTS — add images to /public/ and replace each placeholder div with:
-            <div className="relative overflow-hidden [aspect-ratio class]">
-              <Image src="/diamond-1.jpg" alt="..." fill className="object-cover hover:scale-105 transition-transform duration-700" />
-            </div>
-          */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            <div className="col-span-2 aspect-[16/9] bg-neutral-100 flex items-center justify-center">
-              <span className="text-neutral-300 text-[10px] tracking-widest uppercase font-jost">
-                [ Diamond Photo 1 ]
-              </span>
-            </div>
-            <div className="aspect-square bg-neutral-100 flex items-center justify-center">
-              <span className="text-neutral-300 text-[10px] tracking-widest uppercase font-jost">
-                [ 2 ]
-              </span>
-            </div>
-            <div className="aspect-square bg-neutral-100 flex items-center justify-center">
-              <span className="text-neutral-300 text-[10px] tracking-widest uppercase font-jost">
-                [ 3 ]
-              </span>
-            </div>
-            <div className="aspect-square bg-neutral-100 flex items-center justify-center">
-              <span className="text-neutral-300 text-[10px] tracking-widest uppercase font-jost">
-                [ 4 ]
-              </span>
-            </div>
-            <div className="col-span-2 aspect-[16/9] bg-neutral-100 flex items-center justify-center">
-              <span className="text-neutral-300 text-[10px] tracking-widest uppercase font-jost">
-                [ Diamond Photo 5 ]
-              </span>
-            </div>
+      {/* ── DIAMOND PHOTO ── */}
+      <section className="bg-white px-8 md:px-20 py-28 md:py-44">
+        <div className="max-w-4xl mx-auto">
+          <div className="relative aspect-square overflow-hidden">
+            <Image src="/diamond.png" alt="Diamond" fill className="object-contain" />
           </div>
         </div>
       </section>
@@ -416,14 +382,17 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="bg-atelier-black border-t border-white/5 px-8 md:px-20 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center">
+          <div className="flex items-center gap-3">
             <Image
-              src="/logo.jpg"
+              src="/logo.png"
               alt="Atelier Diamonds"
               width={1634}
               height={750}
-              className="w-40 md:w-52 h-auto object-contain opacity-60"
+              style={{ width: '32px', height: 'auto', display: 'block', opacity: 0.5 }}
             />
+            <span className="text-white/40 text-[10px] tracking-[0.35em] uppercase font-jost">
+              Atelier Diamonds
+            </span>
           </div>
           <p className="text-white/20 text-[11px] font-jost tracking-wider">
             © {new Date().getFullYear()} Atelier Diamonds. All rights reserved.
