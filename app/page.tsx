@@ -163,12 +163,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── CHLOE EDITORIAL PHOTO ── */}
-      <section className="relative h-[65vh] md:h-[85vh] bg-neutral-900 overflow-hidden">
-        <Image src="/laishaandchloe.jpg" alt="" fill className="object-cover object-center" />
-        <div className="absolute inset-0 bg-atelier-black/20" />
-      </section>
-
       {/* ── DIAMOND GALLERY ── */}
       <section id="work" className="bg-white px-8 md:px-20 py-28 md:py-44">
         <div className="max-w-7xl mx-auto">
