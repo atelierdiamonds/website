@@ -58,7 +58,7 @@ export default function Home() {
             alt="Atelier Diamonds"
             width={1070}
             height={616}
-            style={{ width: 'clamp(80px, 10vw, 140px)', height: 'auto', display: 'block' }}
+            style={{ width: 'clamp(52px, 7vw, 84px)', height: 'auto', display: 'block' }}
           />
           <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light whitespace-nowrap">
             Atelier Diamonds
