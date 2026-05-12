@@ -51,16 +51,16 @@ export default function Home() {
   return (
     <>
       {/* ── NAVIGATION ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-8 md:px-16 py-4 flex items-center justify-between">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-6 md:px-16 py-3 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
           <Image
             src="/logo.png"
             alt="Atelier Diamonds"
             width={1634}
             height={750}
-            style={{ width: 'clamp(56px, 7vw, 72px)', height: 'auto', display: 'block' }}
+            style={{ width: 'clamp(80px, 10vw, 140px)', height: 'auto', display: 'block' }}
           />
-          <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light whitespace-nowrap">
+          <span className="hidden md:inline text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light whitespace-nowrap">
             Atelier Diamonds
           </span>
         </a>
@@ -82,7 +82,7 @@ export default function Home() {
 
         <a
           href="#contact"
-          className="text-white text-[11px] tracking-[0.25em] uppercase font-jost font-light border-b border-white/30 hover:border-atelier-gold hover:text-atelier-gold pb-0.5 transition-all duration-300"
+          className="text-white text-[10px] md:text-[11px] tracking-[0.2em] md:tracking-[0.25em] uppercase font-jost font-light border-b border-white/30 hover:border-atelier-gold hover:text-atelier-gold pb-0.5 transition-all duration-300 whitespace-nowrap"
         >
           Request a Consultation
         </a>
@@ -368,9 +368,9 @@ export default function Home() {
               alt="Atelier Diamonds"
               width={1634}
               height={750}
-              style={{ width: '32px', height: 'auto', display: 'block', opacity: 0.5 }}
+              style={{ width: '80px', height: 'auto', display: 'block', opacity: 0.5 }}
             />
-            <span className="text-white/40 text-[10px] tracking-[0.35em] uppercase font-jost">
+            <span className="text-white/40 text-[11px] tracking-[0.35em] uppercase font-jost">
               Atelier Diamonds
             </span>
           </div>
