@@ -56,8 +56,8 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Atelier Diamonds"
-            width={1634}
-            height={750}
+            width={1070}
+            height={616}
             style={{ width: 'clamp(80px, 10vw, 140px)', height: 'auto', display: 'block' }}
           />
           <span className="text-white text-[11px] tracking-[0.35em] uppercase font-jost font-light whitespace-nowrap">
