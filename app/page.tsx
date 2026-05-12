@@ -184,7 +184,7 @@ export default function Home() {
       {/* ── BRAND PILLARS ── */}
       <section className="bg-white px-8 md:px-20 py-28 md:py-44">
         <div className="max-w-7xl mx-auto">
-          <p className="text-atelier-gold text-[10px] tracking-[0.5em] uppercase font-jost mb-20 text-center">
+          <p className="text-atelier-gold text-sm tracking-[0.4em] uppercase font-jost mb-20 text-center">
             The Four Pillars
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-6">
