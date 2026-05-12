@@ -51,14 +51,14 @@ export default function Home() {
   return (
     <>
       {/* ── NAVIGATION ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-8 md:px-16 py-5 flex items-center justify-between">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-8 md:px-16 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center">
           <Image
             src="/logo.jpg"
             alt="Atelier Diamonds"
-            width={220}
-            height={101}
-            className="object-contain"
+            width={1634}
+            height={750}
+            className="w-48 md:w-72 h-auto object-contain"
           />
         </a>
 
@@ -426,9 +426,9 @@ export default function Home() {
             <Image
               src="/logo.jpg"
               alt="Atelier Diamonds"
-              width={160}
-              height={73}
-              className="object-contain opacity-60"
+              width={1634}
+              height={750}
+              className="w-40 md:w-52 h-auto object-contain opacity-60"
             />
           </div>
           <p className="text-white/20 text-[11px] font-jost tracking-wider">
