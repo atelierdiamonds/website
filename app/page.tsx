@@ -148,8 +148,8 @@ export default function Home() {
           </div>
 
           <div className="order-first lg:order-last flex items-center justify-center">
-            <div className="relative w-full max-w-md aspect-[706/1239]">
-              <Image src="/diamondCleaned.jpg" alt="Atelier Diamond" fill className="object-contain" />
+            <div className="relative w-full max-w-md aspect-[663/957]">
+              <Image src="/diamondaligned.JPG" alt="Atelier Diamond" fill className="object-contain" />
             </div>
           </div>
         </div>
