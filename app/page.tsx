@@ -121,7 +121,7 @@ export default function Home() {
       <section className="bg-atelier-warm px-8 md:px-20 py-28 md:py-44">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-40 items-center">
           <div>
-            <p className="text-atelier-gold text-[10px] tracking-[0.5em] uppercase font-jost mb-10">
+            <p className="text-atelier-gold text-sm tracking-[0.4em] uppercase font-jost mb-10">
               Brand Essence
             </p>
             <h2 className="font-cormorant font-light text-atelier-black text-4xl md:text-[3.5rem] leading-tight mb-12">
@@ -157,7 +157,7 @@ export default function Home() {
       {/* ── PHILOSOPHY ── */}
       <section id="philosophy" className="bg-atelier-black px-8 md:px-20 py-28 md:py-44">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-atelier-gold text-[10px] tracking-[0.5em] uppercase font-jost mb-12">
+          <p className="text-atelier-gold text-sm tracking-[0.4em] uppercase font-jost mb-12">
             Our Philosophy
           </p>
           <h2 className="font-cormorant font-light text-white text-4xl md:text-6xl leading-tight mb-16">
@@ -226,7 +226,7 @@ export default function Home() {
       <section id="about" className="bg-atelier-warm px-8 md:px-20 py-28 md:py-44">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-40 items-center">
           <div>
-            <p className="text-atelier-gold text-[10px] tracking-[0.5em] uppercase font-jost mb-10">
+            <p className="text-atelier-gold text-sm tracking-[0.4em] uppercase font-jost mb-10">
               About Atelier Diamonds
             </p>
             <h2 className="font-cormorant font-light text-atelier-black text-4xl md:text-[3rem] leading-tight mb-12">
@@ -264,7 +264,7 @@ export default function Home() {
       {/* ── CONTACT ── */}
       <section id="contact" className="bg-atelier-black px-8 md:px-20 py-28 md:py-44">
         <div className="max-w-xl mx-auto">
-          <p className="text-atelier-gold text-[10px] tracking-[0.5em] uppercase font-jost mb-8 text-center">
+          <p className="text-atelier-gold text-sm tracking-[0.4em] uppercase font-jost mb-8 text-center">
             Private Consultations
           </p>
           <h2 className="font-cormorant font-light text-white text-4xl md:text-6xl text-center leading-tight mb-4">
