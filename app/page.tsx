@@ -51,8 +51,8 @@ export default function Home() {
   return (
     <>
       {/* ── NAVIGATION ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black px-6 md:px-16 py-3 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-atelier-black pl-2 pr-6 md:px-16 py-3 flex items-center justify-between">
+        <a href="#" className="flex items-center gap-1">
           <Image
             src="/logo.png"
             alt="Atelier Diamonds"
