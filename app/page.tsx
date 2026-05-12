@@ -58,7 +58,7 @@ export default function Home() {
             alt="Atelier Diamonds"
             width={1634}
             height={750}
-            className="w-48 md:w-72 h-auto object-contain"
+            style={{ width: 'clamp(180px, 20vw, 320px)', height: 'auto', display: 'block' }}
           />
         </a>
 
