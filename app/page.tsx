@@ -91,7 +91,7 @@ export default function Home() {
 
       {/* ── HERO ── */}
       <section className="relative h-screen bg-atelier-black overflow-hidden flex items-end">
-        <Image src="/laishaandchloe2.jpg" alt="Atelier Diamonds" fill className="object-cover object-center opacity-60" priority />
+        <Image src="/laishaandchloeherov2.jpg" alt="Atelier Diamonds" fill className="object-cover object-center opacity-60" priority />
         <div className="absolute inset-0 bg-gradient-to-t from-atelier-black via-atelier-black/30 to-transparent" />
 
         <div className="relative z-10 px-10 md:px-20 pb-20 md:pb-28">
@@ -149,7 +149,7 @@ export default function Home() {
 
           <div className="order-first lg:order-last flex items-center justify-center">
             <div className="relative w-full max-w-md aspect-[706/1239]">
-              <Image src="/diamond.png" alt="Atelier Diamond" fill className="object-contain" />
+              <Image src="/diamondCleaned.jpg" alt="Atelier Diamond" fill className="object-contain" />
             </div>
           </div>
         </div>
